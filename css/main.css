@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Marck+Script|Oranienbaum&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&subset=cyrillic');
+
+
+/*font-family: 'Caveat', cursive;*/
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Oranienbaum', serif;*/
+
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.photo_main {
+    height: 300px;
+    background-image: url(../images/main_photo.jpg);
+}
+.photo_main img {
+    width: 100%;
+    height: 300px;
+}
+.navbar {
+    background-color: #150d60;
+    height: 75px;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 20px;
+    font-style: oblique;
+}
+.nav {
+    display: flex;
+    align-items: baseline;
+    padding-top: 23px;
+}
+.aboutme {
+    background-color: rgb(201, 152, 104);
+    opacity: .99;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    display: flex;
+}
+.aboutme_personal{
+    padding: 50px 0;
+        margin-right: 0;
+}
+h1 {
+        padding: 50px 0;
+            line-height: 1.1em;
+    font-size: 25px;
+    font-style: italic;
+    
+}
+.personal_text {
+        padding: 0 15px;
+    font-size: 18px;
+    line-height: 1.2em;
+    text-align: justify;
+           max-width: 50%;
+    margin-left: 0;
+}
+.learn_more {
+    margin-top: 20px;
+    background-color: rgb(201, 152, 104);
+    border: 1px solid blue;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.articles {
+    background-color: #150d60;
+    color: wheat;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.h2 {
+        line-height: 1.1em;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 70px;
+    padding-top: 10px;
+}
