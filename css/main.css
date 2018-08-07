@@ -14,7 +14,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 .container {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
 .photo_main {
@@ -42,7 +42,7 @@
     padding-top: 23px;
 }
 .aboutme {
-    background-color: rgb(201, 152, 104);
+        background-color: rgba(223, 207, 186, 1);
     opacity: .99;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,12 +52,14 @@
 .aboutme_personal{
     padding: 50px 0;
         margin-right: 0;
+            color: #150d60;
 }
 h1 {
         padding: 50px 0;
             line-height: 1.1em;
     font-size: 25px;
     font-style: italic;
+        color: #150d60;
     
 }
 .personal_text {
@@ -67,19 +69,23 @@ h1 {
     text-align: justify;
            max-width: 50%;
     margin-left: 0;
+        color: #150d60;
 }
 .learn_more {
-    margin-top: 20px;
-    background-color: rgb(201, 152, 104);
+    margin-top: 40px;
+    color: rgba(223, 207, 186, 1);
     border: 1px solid blue;
     padding: 10px 20px;
     font-size: 16px;
+    background-color: #150d60;
+    margin-left: 180px;
 }
 .articles {
     background-color: #150d60;
     color: wheat;
     font-size: 18px;
     padding-left: 15px;
+    padding-bottom: 25px;
 }
 .h2 {
         line-height: 1.1em;
@@ -88,4 +94,34 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     padding-left: 70px;
     padding-top: 10px;
+    
+}
+.comments {
+    background-color: rgba(223, 207, 186, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+       padding-left: 15px;
+       padding-bottom: 25px;
+}
+.h3 {
+        line-height: 1.1em;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+footer {
+    background-color: #150d60;
+    color: wheat;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+}
+.map_contacts {
+    display: flex;
+}
+.map {
+    padding-top: 50px;
+        margin: 0 70px;
 }
