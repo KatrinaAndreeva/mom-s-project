@@ -157,7 +157,7 @@ footer {
         margin-left: 15px;
 }
 .programm {
-    background-color: rgba(223, 207, 186, 1);
+    ;
     display: flex;
     justify-content: space-around;
 }
@@ -165,19 +165,19 @@ footer {
     display: grid;
 }
 .useful_links {
-    background-color: #150d60;
+    ;
 }
 .useful_links a {
      text-decoration: none;
      color: wheat;
 }
 .videos_zno {
-    background-color: rgba(223, 207, 186, 1);
+    ;
 }
 .advices {
-       background-color: #150d60;
+      ;
        color: wheat;
 }
 .online_tests {
-    background-color: rgba(223, 207, 186, 1);
+    ;
 }
