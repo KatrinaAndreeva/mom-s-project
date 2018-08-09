@@ -13,10 +13,25 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+
 body {
-    background-image: url(../images/book_bgc.jpg);
-    background-size: cover;
+ 
+  position: relative;
 }
+
+body::after {
+  content: "";
+  background: url(../images/book_bgc.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
 .container {
     max-width: 100%;
     margin: 0 auto;
@@ -87,14 +102,14 @@ h1 {
     margin-left: 175px;
 }
 .articles {
-    background-color: #150d60;
-    color: wheat;
+    
+    color: #150d60;
     font-size: 18px;
     padding-left: 15px;
     padding-bottom: 25px;
     text-align: justify;
     padding-right: 35px;
-    opacity: 0.75;
+    
 }
 .articles li {
         padding-bottom: 8px;
