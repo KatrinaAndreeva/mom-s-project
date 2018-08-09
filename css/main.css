@@ -125,11 +125,32 @@ footer {
 }
 .adress_contacts {
     display: grid;
-    grid-template-columns: repeat(4. 1fr);
+    grid-template-columns: repeat(4, 1fr);
     padding-top: 30px;
 }
 .adress {
  
   
         margin-left: 15px;
+}
+.programm {
+    background-color: rgba(223, 207, 186, 1);
+    display: flex;
+}
+.useful_links {
+    background-color: #150d60;
+}
+.useful_links a {
+     text-decoration: none;
+     color: wheat;
+}
+.videos_zno {
+    background-color: rgba(223, 207, 186, 1);
+}
+.advices {
+       background-color: #150d60;
+       color: wheat;
+}
+.online_tests {
+    background-color: rgba(223, 207, 186, 1);
 }
