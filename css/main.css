@@ -13,13 +13,17 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+body {
+    background-image: url(../images/book_bgc.jpg);
+    background-size: cover;
+}
 .container {
     max-width: 100%;
     margin: 0 auto;
 }
 .photo_main {
     height: 300px;
-    background-image: url(../images/main_photo.jpg);
+    /*background-image: url(../images/main_photo.jpg);*/
 }
 .photo_main img {
     width: 100%;
@@ -29,6 +33,7 @@
     background-color: #150d60;
     height: 75px;
     font-family: 'Open Sans', sans-serif;
+    opacity: 0.75;
 }
 .nav a {
     text-decoration: none;
@@ -42,8 +47,8 @@
     padding-top: 23px;
 }
 .aboutme {
-        background-color: rgba(223, 207, 186, 1);
-    opacity: .99;
+    /*    background-color: rgba(223, 207, 186, 1);*/
+    /*opacity: .99;*/
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
@@ -53,6 +58,7 @@
     padding: 50px 0;
         margin-right: 0;
             color: #150d60;
+            opacity: 0.75;
 }
 h1 {
         padding: 50px 0;
@@ -88,6 +94,7 @@ h1 {
     padding-bottom: 25px;
     text-align: justify;
     padding-right: 35px;
+    opacity: 0.75;
 }
 .articles li {
         padding-bottom: 8px;
@@ -102,7 +109,7 @@ h1 {
     
 }
 .comments {
-    background-color: rgba(223, 207, 186, 1);
+    /*background-color: rgba(223, 207, 186, 1);*/
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
        padding-left: 15px;
@@ -122,6 +129,7 @@ footer {
     font-size: 18px;
     padding-left: 15px;
     padding-bottom: 25px;
+    opacity: 0.75;
 }
 .adress_contacts {
     display: grid;
@@ -136,6 +144,10 @@ footer {
 .programm {
     background-color: rgba(223, 207, 186, 1);
     display: flex;
+    justify-content: space-around;
+}
+.photos {
+    display: grid;
 }
 .useful_links {
     background-color: #150d60;
