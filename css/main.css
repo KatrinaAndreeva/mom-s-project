@@ -36,13 +36,13 @@ body::after {
     max-width: 100%;
     margin: 0 auto;
 }
-.photo_main {
+.carousel_text {
     height: 300px;
-    /*background-image: url(../images/main_photo.jpg);*/
+    
 }
-.photo_main img {
-    width: 100%;
-    height: 300px;
+.slideshow-container {
+    padding-top: 100px;
+    padding-left: 250px;
 }
 .navbar {
     background-color: #150d60;
@@ -158,26 +158,20 @@ footer {
 }
 .programm {
     ;
-    display: flex;
+   
     justify-content: space-around;
 }
 .photos {
     display: grid;
+    grid-template-columns: repeat(5, 1fr);
+        grid-gap: 30px;
 }
-.useful_links {
-    ;
-}
+
 .useful_links a {
      text-decoration: none;
      color: wheat;
 }
-.videos_zno {
-    ;
-}
+
 .advices {
-      ;
        color: wheat;
-}
-.online_tests {
-    ;
 }
