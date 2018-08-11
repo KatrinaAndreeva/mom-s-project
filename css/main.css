@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat|Marck+Script|Oranienbaum&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic');
 
 
 /*font-family: 'Caveat', cursive;*/
@@ -174,4 +175,23 @@ footer {
 
 .advices {
        color: wheat;
+}
+.slide_text {
+    font-family: 'Marck Script', cursive;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+}
+.main img {
+    height: 475px;
+    margin: 10px auto;
+    display: flex;
+}
+.social {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.copyright {
+    text-align: right;
+    margin-right: 15px;
 }
