@@ -10,7 +10,7 @@
 
 
 * {
-    margin: 0 auto;
+    margin: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
@@ -58,6 +58,7 @@ body::after {
     display: flex;
     align-items: baseline;
     padding-top: 23px;
+    justify-content: space-around;
 }
 .aboutme {
     /*    background-color: rgba(223, 207, 186, 1);*/
@@ -163,6 +164,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
         grid-gap: 30px;
+        padding-left: 160px;
 }
 
 .useful_links a {
@@ -197,7 +199,7 @@ footer {
     color: gold;
 }
 .photos img {
-    width: 350px;
+    width: 450px;
     overflow: hidden;
 }
 .photos img {
@@ -206,8 +208,8 @@ footer {
     -webkit-transition: all 0.5s ease-out;
 }
 .photos img:hover {
-    -webkit-transform: scale(1.9);
-    -moz-transform: scale(1.9);
-    -o-transform: scale(1.9);
-    margin-left: 20px;
+    -webkit-transform: scale(1.6);
+    -moz-transform: scale(1.6);
+    -o-transform: scale(1.6);
 }
+
