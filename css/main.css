@@ -161,7 +161,7 @@ footer {
 }
 .photos {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
         grid-gap: 30px;
 }
 
@@ -195,4 +195,19 @@ footer {
 .contacts_email a,
 .contacts_phone a {
     color: gold;
+}
+.photos img {
+    width: 350px;
+    overflow: hidden;
+}
+.photos img {
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+}
+.photos img:hover {
+    -webkit-transform: scale(1.9);
+    -moz-transform: scale(1.9);
+    -o-transform: scale(1.9);
+    margin-left: 20px;
 }
