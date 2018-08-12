@@ -37,13 +37,10 @@ body::after {
     max-width: 100%;
     margin: 0 auto;
 }
-.carousel_text {
-    height: 300px;
-    
-}
 .slideshow-container {
-    padding-top: 100px;
+    padding-top: 70px;
     padding-left: 250px;
+    height: 220px;
 }
 .navbar {
     background-color: #150d60;
@@ -149,7 +146,7 @@ footer {
 }
 .adress_contacts {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding-top: 30px;
 }
 .adress {
@@ -194,4 +191,8 @@ footer {
 .copyright {
     text-align: right;
     margin-right: 15px;
+}
+.contacts_email a,
+.contacts_phone a {
+    color: gold;
 }
