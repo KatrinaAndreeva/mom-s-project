@@ -119,7 +119,8 @@ h1 {
     font-style: italic;
     font-family: 'Open Sans', sans-serif;
     padding-left: 70px;
-    padding-top: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     
 }
 .comments {
@@ -173,7 +174,7 @@ footer {
 }
 
 .advices {
-       color: wheat;
+       color: #150d60;
 }
 .slide_text {
     font-family: 'Marck Script', cursive;
