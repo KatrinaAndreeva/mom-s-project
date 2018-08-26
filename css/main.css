@@ -213,4 +213,22 @@ footer {
     -moz-transform: scale(1.6);
     -o-transform: scale(1.6);
 }
-
+.advice {
+    margin-top: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    text-align: justify;
+}
+.advice_title {
+    padding-left: 18px;
+    padding-right: 18px;
+    text-align: justify;
+}
+.video_zno a {
+    display: block;
+    color: #150d60;
+    margin-left: 25px;
+}
+.video_zno li {
+    line-height: 2;
+}
