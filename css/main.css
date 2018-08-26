@@ -39,7 +39,7 @@ body::after {
 }
 .slideshow-container {
     padding-top: 70px;
-    padding-left: 250px;
+    padding-left: 200px;
     height: 220px;
 }
 .navbar {
@@ -180,7 +180,7 @@ footer {
     font-family: 'Marck Script', cursive;
     font-style: italic;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 38px;
 }
 .main img {
     height: 475px;
